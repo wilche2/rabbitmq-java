@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0062a37-b46e-4db4-8a30-54aade2ea210" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/fair/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/fair/Work1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/fair/Work2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/roundrobin/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/roundrobin/Work1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/roundrobin/Work2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/fanout/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/fanout/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Producer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xuexiangban/rabbitmq/simple/Consumer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexiangban/rabbitmq/simple/Consumer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xuexiangban/rabbitmq/simple/Consumer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexiangban/rabbitmq/simple/Consumer$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xuexiangban/rabbitmq/simple/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexiangban/rabbitmq/simple/Consumer.class" afterDir="false" />
@@ -39,55 +44,108 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/all/Consumer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/simple/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+            <state relative-caret-position="221">
+              <caret line="36" selection-start-line="36" selection-end-line="82" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/all/Producer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/roundrobin/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="76" column="66" lean-forward="true" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="66" />
+            <state relative-caret-position="425">
+              <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/fanout/Producer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/fair/Work2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="408">
+              <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Consumer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/fair/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+            <state relative-caret-position="-119">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Producer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/fair/Work1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="374">
+              <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Producer.java">
+        <entry file="jar://$PROJECT_DIR$/../../../apache-maven-3.6.1/repository/com/rabbitmq/amqp-client/5.10.0/amqp-client-5.10.0-sources.jar!/com/rabbitmq/client/Delivery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="391">
+              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+              <folding>
+                <element signature="e#1300#1301#0" expanded="true" />
+                <element signature="e#1332#1333#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../apache-maven-3.6.1/repository/com/rabbitmq/amqp-client/5.10.0/amqp-client-5.10.0-sources.jar!/com/rabbitmq/client/Envelope.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+              <folding>
+                <element signature="e#1753#1754#0" expanded="true" />
+                <element signature="e#1788#1789#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../apache-maven-3.6.1/repository/com/rabbitmq/amqp-client/5.10.0/amqp-client-5.10.0-sources.jar!/com/rabbitmq/client/Channel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="247" column="6" lean-forward="true" selection-start-line="247" selection-start-column="6" selection-end-line="247" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/roundrobin/Work1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/roundrobin/Work2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,6 +183,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Producer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Producer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/fanout/Producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/roundrobin/Work1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/roundrobin/Work2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/roundrobin/Producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/fair/Producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/fair/Work1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/fair/Work2.java" />
       </list>
     </option>
   </component>
@@ -231,7 +295,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xuexiangban" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="routing" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rabbitmq-java" type="b2602c69:ProjectViewProjectNode" />
@@ -242,8 +306,31 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xuexiangban" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="routing" type="462c0819:PsiDirectoryNode" />
-              <item name="fanout" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuexiangban" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="fair" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rabbitmq-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rabbitmq-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuexiangban" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
+              <item name="roundrobin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,19 +344,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/all" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/fair" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Environment\IdeaProject\project-explore\rabbitmq-java\src\main\java\com\xuexiangban\rabbitmq\work\fair" />
       <recent name="D:\Environment\IdeaProject\project-explore\rabbitmq-java\src\main\java\com\xuexiangban\rabbitmq\routing\all" />
       <recent name="D:\Environment\IdeaProject\project-explore\rabbitmq-java\src\main\java\com\xuexiangban\rabbitmq\routing\direct" />
       <recent name="D:\Environment\IdeaProject\project-explore\rabbitmq-java\src\main\java\com\xuexiangban\rabbitmq\routing" />
@@ -287,21 +375,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Producer (1)">
-    <configuration name="Consumer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuexiangban.rabbitmq.routing.all.Consumer" />
-      <module name="rabbitmq-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuexiangban.rabbitmq.simple.Consumer" />
-      <module name="rabbitmq-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Producer">
     <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xuexiangban.rabbitmq.routing.fanout.Consumer" />
       <module name="rabbitmq-java" />
@@ -316,15 +390,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Producer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuexiangban.rabbitmq.routing.all.Producer" />
-      <module name="rabbitmq-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xuexiangban.rabbitmq.simple.Producer" />
+    <configuration name="Producer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuexiangban.rabbitmq.work.roundrobin.Producer" />
       <module name="rabbitmq-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -338,7 +405,35 @@
       </method>
     </configuration>
     <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuexiangban.rabbitmq.work.fair.Producer" />
+      <module name="rabbitmq-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xuexiangban.rabbitmq.routing.topic.Producer" />
+      <module name="rabbitmq-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Work1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuexiangban.rabbitmq.work.fair.Work1" />
+      <module name="rabbitmq-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Work2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuexiangban.rabbitmq.work.fair.Work2" />
+      <module name="rabbitmq-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Work2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xuexiangban.rabbitmq.work.roundrobin.Work2" />
       <module name="rabbitmq-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -346,11 +441,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Producer (1)" />
-        <item itemvalue="Application.Consumer (1)" />
-        <item itemvalue="Application.Producer (1)" />
-        <item itemvalue="Application.Consumer (1)" />
-        <item itemvalue="Application.Producer (1)" />
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.Work2 (1)" />
+        <item itemvalue="Application.Work1 (1)" />
+        <item itemvalue="Application.Producer (2)" />
+        <item itemvalue="Application.Work2" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +462,7 @@
       <workItem from="1616067616035" duration="3259000" />
       <workItem from="1616154638044" duration="181000" />
       <workItem from="1616154844084" duration="4614000" />
-      <workItem from="1616230004440" duration="4643000" />
+      <workItem from="1616230004440" duration="8298000" />
     </task>
     <task id="LOCAL-00001" summary="新增默认的交换机的面试题">
       <created>1616228727335</created>
@@ -383,16 +478,23 @@
       <option name="project" value="LOCAL" />
       <updated>1616234241688</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1. 添加相关模式的解释">
+      <created>1616234675633</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616234675633</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12697000" />
+    <option name="totallyTimeSpent" value="16352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -401,8 +503,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="leeks" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.27657267" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.27223426" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35969663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,37 +537,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增默认的交换机的面试题" />
     <MESSAGE value="routekey模式测试：topic、fanout、direct、以及完整示例。&#10;headers模式没有demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="routekey模式测试：topic、fanout、direct、以及完整示例。&#10;headers模式没有demo" />
+    <MESSAGE value="1. 添加相关模式的解释" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 添加相关模式的解释" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.10.0/amqp-client-5.10.0.jar!/com/rabbitmq/client/ConnectionFactory.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.10.0/amqp-client-5.10.0-sources.jar!/com/rabbitmq/client/ConnectionFactory.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../apache-maven-3.6.1/repository/com/rabbitmq/amqp-client/5.10.0/amqp-client-5.10.0-sources.jar!/com/rabbitmq/client/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="508" column="7" lean-forward="true" selection-start-line="508" selection-start-column="7" selection-end-line="508" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../apache-maven-3.6.1/repository/com/rabbitmq/amqp-client/5.10.0/amqp-client-5.10.0.jar!/com/rabbitmq/client/Channel.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/simple/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/simple/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -536,6 +618,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/simple/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/simple/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="36" selection-start-line="36" selection-end-line="82" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../apache-maven-3.6.1/repository/com/rabbitmq/amqp-client/5.10.0/amqp-client-5.10.0-sources.jar!/com/rabbitmq/client/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="247" column="6" lean-forward="true" selection-start-line="247" selection-start-column="6" selection-end-line="247" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/roundrobin/Work2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/roundrobin/Work1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/roundrobin/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../apache-maven-3.6.1/repository/com/rabbitmq/amqp-client/5.10.0/amqp-client-5.10.0-sources.jar!/com/rabbitmq/client/Envelope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <folding>
+            <element signature="e#1753#1754#0" expanded="true" />
+            <element signature="e#1788#1789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../apache-maven-3.6.1/repository/com/rabbitmq/amqp-client/5.10.0/amqp-client-5.10.0-sources.jar!/com/rabbitmq/client/Delivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/fair/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/fair/Work1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/work/fair/Work2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
         </state>
       </provider>
     </entry>
