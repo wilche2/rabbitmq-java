@@ -38,7 +38,7 @@ public class Producer {
         Channel channel = null;
         try {
             // 2. 创建连接 Connection，rabbitmq为什么不基于连接去处理通道？长连接-信道channel
-            connection = connectionFactory.newConnection("生成者");
+            connection = connectionFactory.newConnection("生产者");
             // 3. 通过连接获取通道 Channel
             channel = connection.createChannel();
             // 4. 通过创建交换机，声明队列，绑定关系，路由key，发送消息，和接收消息

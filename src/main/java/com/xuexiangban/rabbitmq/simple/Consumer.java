@@ -30,17 +30,19 @@ public class Consumer {
         Channel channel = null;
         try {
             // 2. 创建连接 Connection
-            connection = connectionFactory.newConnection("生成者");
+            connection = connectionFactory.newConnection("生产者");
             // 3. 通过连接获取通道 Channel
             channel = connection.createChannel();
 
             String queueName = "queue1";
             // 接收消息
             channel.basicConsume(queueName, true, new DeliverCallback() {
+                @Override
                 public void handle(String consumerTag, Delivery message) throws IOException {
                     System.out.println("收到消息是：" + new String(message.getBody(), "UTF-8"));
                 }
             }, new CancelCallback() {
+                @Override
                 public void handle(String consumerTag) throws IOException {
                     System.out.println("接收失败了");
                 }
