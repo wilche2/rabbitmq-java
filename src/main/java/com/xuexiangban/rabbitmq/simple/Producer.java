@@ -53,6 +53,8 @@ public class Producer {
             // 5. 准备消息内容
             String message = "Hello xuexiangban!!!";
             // 6. 发送消息对队列queue
+            // @params1 交换机 @params2 队列、路由key @params3 消息控制状态 @params4 消息内容
+            // 面试题：可以存在没有交换机的队列吗？不可能，会存在一个默认的direct交换机
             channel.basicPublish("", queueName, null, message.getBytes());
 
             System.out.println("消息发送成功");
