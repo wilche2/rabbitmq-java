@@ -9,7 +9,7 @@ import java.util.concurrent.TimeoutException;
 
 /**
  * 生产者
- * fanout 模式
+ * fanout 模式：向所有的消费者发送
  * 1. Producer -> 消息队列 :
  *                  -> Consumer1
  *                  -> Consumer2

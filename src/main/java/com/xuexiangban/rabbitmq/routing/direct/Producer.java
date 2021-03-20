@@ -9,7 +9,7 @@ import java.util.concurrent.TimeoutException;
 
 /**
  * 生产者
- * direct 模式
+ * direct 模式：使用路由的全名称进行匹配
  * 1. Producer -> 消息队列 :
  *                  -> routKey -> Consumer1
  *                  -> routKey -> Consumer2

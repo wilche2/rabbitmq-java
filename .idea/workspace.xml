@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0062a37-b46e-4db4-8a30-54aade2ea210" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/all/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/all/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/fanout/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/fanout/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/simple/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/simple/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/simple/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/simple/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/fanout/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/fanout/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Producer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xuexiangban/rabbitmq/simple/Consumer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexiangban/rabbitmq/simple/Consumer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xuexiangban/rabbitmq/simple/Consumer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexiangban/rabbitmq/simple/Consumer$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xuexiangban/rabbitmq/simple/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xuexiangban/rabbitmq/simple/Consumer.class" afterDir="false" />
@@ -48,19 +39,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/simple/Consumer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/all/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="340">
+              <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/simple/Producer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/all/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+            <state relative-caret-position="498">
+              <caret line="76" column="66" lean-forward="true" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/fanout/Producer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -75,28 +75,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/InputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="67" column="40" lean-forward="true" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+            <state relative-caret-position="102">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -104,35 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/fanout/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/all/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/all/Producer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="84" column="32" lean-forward="true" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
+            <state relative-caret-position="102">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -147,6 +102,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="wilche &lt;154490984@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -157,12 +117,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/Producer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/simple/Producer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/simple/Consumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Producer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Producer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/fanout/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/all/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/all/Producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/fanout/Producer.java" />
       </list>
     </option>
   </component>
@@ -281,7 +243,7 @@
               <item name="xuexiangban" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="routing" type="462c0819:PsiDirectoryNode" />
-              <item name="all" type="462c0819:PsiDirectoryNode" />
+              <item name="fanout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -405,7 +367,7 @@
       <workItem from="1616067616035" duration="3259000" />
       <workItem from="1616154638044" duration="181000" />
       <workItem from="1616154844084" duration="4614000" />
-      <workItem from="1616230004440" duration="3856000" />
+      <workItem from="1616230004440" duration="4643000" />
     </task>
     <task id="LOCAL-00001" summary="新增默认的交换机的面试题">
       <created>1616228727335</created>
@@ -414,15 +376,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616228727335</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="routekey模式测试：topic、fanout、direct、以及完整示例。&#10;headers模式没有demo">
+      <created>1616234241688</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616234241688</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11910000" />
+    <option name="totallyTimeSpent" value="12697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -434,7 +402,7 @@
       <window_info id="leeks" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.35249457" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.27657267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35969663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,7 +412,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.3253796" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -466,7 +434,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增默认的交换机的面试题" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增默认的交换机的面试题" />
+    <MESSAGE value="routekey模式测试：topic、fanout、direct、以及完整示例。&#10;headers模式没有demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="routekey模式测试：topic、fanout、direct、以及完整示例。&#10;headers模式没有demo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml" />
@@ -483,13 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/fanout/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -514,31 +476,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="67" column="40" lean-forward="true" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -549,17 +490,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/all/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="340">
+          <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/all/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="84" column="32" lean-forward="true" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
+        <state relative-caret-position="498">
+          <caret line="76" column="66" lean-forward="true" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/topic/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/direct/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xuexiangban/rabbitmq/routing/fanout/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
         </state>
       </provider>
     </entry>

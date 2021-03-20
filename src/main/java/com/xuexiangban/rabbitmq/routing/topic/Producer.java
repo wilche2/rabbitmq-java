@@ -9,7 +9,7 @@ import java.util.concurrent.TimeoutException;
 
 /**
  * 生产者
- * topic 模式
+ * topic 模式：可使用路由进行模糊匹配
  * #：匹配0个或多个
  * *：至少匹配1个
  * 1. Producer -> 消息队列 :
